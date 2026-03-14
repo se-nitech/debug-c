@@ -76,20 +76,5 @@
                 "isDefault": false
             }
         },
-        {
-            "type": "process",
-            "label": "Java: javac build",
-            "command": "javac",
-            "args": [
-                "${file}",
-            ],
-            "options": {
-                "cwd": "${fileDirname}"
-            },
-            "group": {
-                "kind": "build",
-                "isDefault": false
-            }
-        },
     ]
 }
